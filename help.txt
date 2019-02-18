@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Help page</title>
+        <link rel="stylesheet" href="helpStyle.css">
+    </head>
+    <body class="image_background">
+        <img src="fifa.jpg" id="fifaImg">
+        <div class="div">            
+            <div>
+                <h1>HELP PAGE</h1>
+                <div class="Xkey correctAlignment">
+                    <h1>X</h1> 
+                </div>
+                <h2 class="space">Pass/ Tackle</h2>
+                <br>
+                <p>&nbsp;&nbsp;&nbsp;<i class="up upKey"></i></p>
+                <p class="allKeys">
+                    <i class="left"></i>
+                        &nbsp;&nbsp;&nbsp;
+                    <i class="down"></i>
+                        &nbsp;&nbsp;&nbsp;
+                    <i class="right"></i>
+                </p>
+                <br><br><br>
+                <h2 id="upmove">UP</h2>
+                <h2 class="move">LEFT, DOWN, RIGHT</h2>
+                <div class="Xkey correctAlignment">
+                        <h1>Z</h1> 
+                    </div>
+                    <h2 class="shoot">Shoot</h2>
+                </div>
+                <br>
+                <br>
+                <p id="aboutGame">Use your soccer skills to prove you're a Champion among Soccer Stars
+                   in this fast-paced game. Play as one of six teams: North American 
+                   Masters, Euro Elite, Far East Warriors, S.A. All Stars, African Aces,
+                   or Australasia Elite. Tackle opposing players and steal the ball, then
+                   make a break down the field or pass to a teammate. Get in position and
+                   take a shot on goal!
+                </p>
+                <div class="backKey">
+                    <a href="helpPage.html" id="backColor"><h2 class="back">
+                            BACK
+                        </h2></a>
+                </div>
+                
+        </div>             
+    </body>
+</html>

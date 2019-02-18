@@ -1,0 +1,117 @@
+.div{
+  height: 650px;
+  width: 850px;
+  background-color: rgb(72, 151, 76);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+}
+h4,h1,h2{
+  text-align: center;
+}
+.Xkey{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  color: white;
+  margin: 60px 0px 0px 60px;
+  background-color: rgb(0, 0, 0);
+}
+
+.correctAlignment{
+  margin-left: 330px;
+}
+
+.space{
+  position: absolute;
+  top: 13%;
+  left:50%;
+}
+
+#upmove{
+  position: absolute;
+  top: 25%;
+  left:50%;
+}
+
+.move{
+  position: absolute;
+  top: 33%;
+  left:50%;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.upKey{
+  position: absolute;
+  top:30%;
+  left:40%;
+}
+
+.allKeys{
+    position: absolute;
+    top:35%;
+    left:36%;
+}
+
+.shoot{
+  position: absolute;
+  top: 47%;
+  left:50%;
+}
+
+#aboutGame{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 19px;
+}
+
+#fifaImg{
+  opacity:0.8;
+}
+
+.backKey{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  margin: 60px 0px 0px 660px;
+  background-color: rgb(0, 0, 0);
+}
+
+.back{
+  position: absolute;
+  top: 85.4%;
+  left:79.3%;
+}
+
+#backColor{
+  color:white;
+}

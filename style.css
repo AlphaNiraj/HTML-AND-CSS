@@ -1,0 +1,76 @@
+*{
+    margin:0px 0px 0px 0px;
+}
+
+h3{
+    position: absolute;
+    top: 40px;
+    left: 43%;
+    font-size: 24px;
+    font:bold;
+    text-align: center;
+}
+
+div{
+  height: 650px;
+  width: 850px;
+  background-color: rgb(72, 151, 76);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+}
+
+#fifaImg{
+    opacity:0.6;
+}
+
+#allGameImg{
+  height: 650px;
+  width: 850px;
+}
+
+#loaderImg{
+  position : absolute;
+  height : 20%;
+  width : 50%;
+  top: 450px;
+  left:200px;
+}
+
+#playerImg{
+  position : absolute;
+  top: 300px;
+  left:360px;
+}
+
+#loadingWordImg{
+  position : absolute;
+  height:20%;
+  width:20%;
+  top: 530px;
+  left:350px;
+}
+
+.backKey{
+  position:absolute;
+  top: 530px;
+  left:60px;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  margin: 60px 0px 0px 660px;
+  background-color: rgb(0, 0, 0);
+}
+
+.back{
+  position: absolute;
+  top: 25%;
+  left:20%;
+}
+
+#backColor{
+  color:white;
+}
